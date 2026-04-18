@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yorkshire Refinish | Smart Repair Doncaster</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="logo.png">
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  overflow-x: hidden;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* VIDEO BACKGROUND */
+.hero video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px) brightness(0.5);
+  transform: scale(1.05);
+}
+
+/* DARK OVERLAY */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.75));
+}
+
+/* HERO CONTENT */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  max-width: 90%;
+}
+
+.hero-content img {
+  width: 450px;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 46px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.highlight {
+  color: #ff6a00;
+  font-weight: 700;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 12px 16px;
+  background: #ff6a00;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* SECTIONS */
+.section {
+  padding: 50px 18px;
+}
+
+.section h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+/* CARDS */
+.card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  color: #ff6a00;
+  margin-bottom: 6px;
+}
+
+/* MOBILE SERVICE */
+.mobile {
+  background: #111;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background: #25D366;
+  color: white;
+  padding: 14px 16px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  z-index: 9999;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  background: #000;
+  color: #777;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+
+  <video autoplay muted loop playsinline poster="hero.jpg">
+    <source src="hero.jpg" type="video/mp4">
+  </video>
+
+  <div class="hero-content">
+
+    <img src="logo.PNG" alt="Yorkshire Refinish Logo">
+
+    <p>
+      <span class="highlight">Alloys • Bumpers • Panels</span><br>
+      Doncaster<br>
+      Unit 18 Wheatley Hall Business Centre
+    </p>
+
+    <a class="btn" href="https://wa.me/447726670105">
+      Book via WhatsApp
+    </a>
+
+  </div>
+
+</section>
+
+<!-- SERVICES -->
+<section class="section">
+
+  <h2>Trade Services</h2>
+
+  <div class="card">
+    <h3>Alloy Wheel Repair</h3>
+    <p>alloy wheel refurb is a quick restoration service that removes scuffs, curb damage, and light scratches to bring wheels back to a clean, factory-style finish.</p>
+  </div>
+
+  <div class="card">
+    <h3>Bumper Scuffs</h3>
+    <p>scuff repair is a cosmetic refurb service that removes scratches, scrapes, and light damage to restore a clean, factory-finish look without replacing the bumper..</p>
+  </div>
+
+  <div class="card">
+    <h3>Panel Repair</h3>
+    <p>cosmetic smart repair service for minor dents, scratches, and paint damage, restoring the affected area to a clean finish without the need for full panel replacement</p>
+  </div>
+
+</section>
+
+<!-- MOBILE DIVISION -->
+<section class="section mobile">
+
+  <div style="display:flex; align-items:center; gap:15px;">
+
+    <img src="refinish.png" alt="Refinish Mobile Service Logo" style="width:90px; height:auto;">
+
+    <div>
+      <h2 style="margin-bottom:8px;">Mobile Service</h2>
+
+      <p>
+        For mobile repairs and retail work visit:
+        <br><br>
+
+        <a href="https://roadsiderefinish.co.uk" target="_blank" style="color:#ff6a00; font-weight:600; text-decoration:none;">
+          roadsiderefinish.co.uk
+        </a>
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="section">
+
+  <h2>Book Your Repair</h2>
+
+  <p>
+    Contact via WhatsApp for fast booking:<br><br>
+
+    <a class="btn" href="https://wa.me/447726670105">WhatsApp Booking</a><br><br>
+
+    Unit 18 Wheatley Hall Business Centre<br>
+    Doncaster DN2 4LP
+  </p>
+
+</section>
+
+
+<footer>
+  © Yorkshire Refinish. All rights reserved.
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a class="whatsapp" href="https://wa.me/447726670105">WhatsApp</a>
+
+</body>
+</html>
